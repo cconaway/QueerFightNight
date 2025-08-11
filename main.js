@@ -1,11 +1,12 @@
 // main.js
 import * as THREE from 'three';
-import { setupQFN } from './qfnScene1.js';
-import { setupCube } from './qfnScene2.js';
-import { setupSkyscraper } from './qfnScene3.js';
-import { setupCorridor } from './qfnScene4.js';
-import { setupPerlin } from './qfnScene5.js';
-import { setupMatrixRain } from './qfnScene6.js';
+
+import { setupQFN } from './scenes/qfnScene1.js';
+import { setupCube } from './scenes/qfnScene2.js';
+import { setupSkyscraper } from './scenes/qfnScene3.js';
+import { setupCorridor } from './scenes/qfnScene4.js';
+import { setupPerlin } from './scenes/qfnScene5.js';
+import { setupMatrixRain } from './scenes/qfnScene6.js';
 
 // ---------------------------------------------------------
 // Renderer
