@@ -14,7 +14,7 @@ export function setupQFN() {
         const textGeometry = new TextGeometry('QFN', {
             font: font,
             size: 50,
-            depth: 2,
+            depth: 1,
             curveSegments: 2,
             bevelEnabled: true,
             bevelThickness: 10,
