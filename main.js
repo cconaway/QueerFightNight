@@ -7,6 +7,7 @@ import { setupSkyscraper } from './scenes/qfnScene3.js';
 import { setupCorridor } from './scenes/qfnScene4.js';
 import { setupPerlin } from './scenes/qfnScene5.js';
 import { setupMatrixRain } from './scenes/qfnScene6.js';
+import { setupSignature } from './scenes/signature.js';
 
 // ---------------------------------------------------------
 // Renderer
@@ -61,6 +62,7 @@ const scenes = {
   4: setupCorridor,
   5: setupPerlin,
   6: setupMatrixRain,
+  7: setupSignature,
 };
 const sceneIds = Object.keys(scenes).map(Number);
 let currentSceneIndex = 0;
